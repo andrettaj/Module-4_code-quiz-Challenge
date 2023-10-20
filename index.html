@@ -9,9 +9,9 @@
   <h1>Module-4_code-quiz-Challenge</h1>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel = "stylesheet" href = "main.css">
+  <link rel = "stylesheet" href = "./assets/style.css">
   
-  <body>
+  <body class = "flex">
 
     <div class="wrapper">
       <div class = "quiz-container">
@@ -22,12 +22,12 @@
           </div>
         </div>
         <div class = "quiiz-body">
-            <h2 class = "quiz-question" id = "question">What is the full form of HTTP?</h2>
+            <h2 class = "quiz-question" id = "question">Commonlu Used Data types DO not include: _____________________<br> <span class = "category">Geography</span></h2>
             <ul class = "quiz-options">
-              <li>1. Hyper text transfer package</li>
-              <li>1. Hyper text transfer package</li>
-              <li>1. Hyper text transfer package</li>
-              <li>1. Hyper text transfer package</li>
+              <li class>1. strings</li>
+              <li>1. booleans</li>
+              <li>1. alerts</li>
+              <li>1. numbers</li>
              <div id = "result"></div>
             </ul> 
              <!-- result here -->
@@ -35,10 +35,14 @@
         </div>
       </div>
    <!-- Start Here for quiz foot -->
-   
+      <div class = "quiz-foot">
+        <button type = "button"  id  = "check-answer"> Check check-answer
+        </button>
+        <button type = "button" id = "play again">Play Again</button>
+      </div>
     </div>
   
-
-    <script src="./assets/script.js"></script>
+    
+    <script src = "./assets/script.js"></script>
 </body>
 </html>
